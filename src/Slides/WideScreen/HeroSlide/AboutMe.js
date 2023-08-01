@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import device from '../../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
-    height: 40vh;/* Since pageSplitTime is 1.4 */
+    height: 90vh;/* Since pageSplitTime is 1.4 */
     width:100%;
     /* border: 1px solid blue; */
     position: relative;
@@ -88,8 +88,9 @@ class AboutMe extends Component {
       <Container>
         <AboutMeTitle scrollPercent={scrollPercent}>ABOUT ME</AboutMeTitle>
         <AboutMeDescription>
-          Crafting user friendly and aesthetic UI designs
-          is not just my profession, it's my passion.
+          A passionate and curious developer who gets satisfaction
+          from developing high standard software hence always learning and 
+          practicing code.
         </AboutMeDescription>
       </Container>
     );

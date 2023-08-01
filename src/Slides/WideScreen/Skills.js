@@ -95,33 +95,33 @@ class Skills extends Component {
         <SkillsTitle scrollPercent={scrollPercent}>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
-            Product Design
+            Backend Development
             <br />
-            Design system
+            Frontend Development
             <br />
-            Information architect
+            Database Management
             <br />
             <br />
-            HTML & CSS
+            Python Django
             <br />
-            React
+            JavaScript React
             <br />
-            Node JS
+            PHP Laravel
             <br />
           </div>
           <div>
-            Project Management
+            Version Control
             <br />
-            Visual Communication
+            Dockerisation
             <br />
             Concept development
             <br />
             <br />
-            Figma
+            Github
             <br />
-            Sketch
+            Docker
             <br />
-            Principle
+            Websockets
             <br />
           </div>
         </SkillsList>

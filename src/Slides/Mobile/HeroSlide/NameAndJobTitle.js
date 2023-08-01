@@ -22,7 +22,8 @@ const Name = styled.div`
   }
   @media ${device.mobileM} {
     font-size: 80px;
-  }
+  }  Crafting user friendly and aesthetic UI designs
+  is not just my profession, it's my passion.
   @media ${device.mobileL} {
     font-size: 90px;
   }
@@ -59,8 +60,8 @@ class NameAndJobTitle extends Component {
   render() {
     return (
       <Container>
-        <Name>Suresh Murali</Name>
-        <Title>UI/UX DESIGNER & DEVELOPER</Title>
+        <Name>Levy Ochieng</Name>
+        <Title>FULLSTACK DEVELOPER</Title>
       </Container>
     );
   }

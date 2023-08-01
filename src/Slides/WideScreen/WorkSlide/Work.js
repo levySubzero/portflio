@@ -16,60 +16,11 @@ class Work extends Component {
       vh: 0,
       slideNumber: 0,
     };
-    this.pageSplitTimes = 1.4;
+    this.pageSplitTimes = 1;
     this.lastScrollTop = 0;
     this.scrollDirectionDown = true;
     this.handleScroll = this.handleScroll.bind(this);
     this.workDetails = [
-      {
-        number: '',
-        projectName: '',
-        projectDesc: '',
-        projectType: '',
-        roles: [''],
-      },
-      {
-        number: '01',
-        projectName: 'FR Design system',
-        projectDesc: 'Multi brand e-commerce design system for websites and native mobile applications.',
-        projectType: 'DESIGN SYSTEM',
-        roles: ['Design system lead', 'Technical PDM'],
-      },
-      {
-        number: '02',
-        projectName: 'LASHIC',
-        projectDesc: "Mobile app and websites for senior citizen facility's caregivers, service managers and admins.",
-        projectType: 'APP SUITE',
-        roles: ['Design lead'],
-      },
-      {
-        number: '03',
-        projectName: 'Eyep',
-        projectDesc: 'Single purpose website to show your IP address and location.',
-        projectType: 'WEB APP',
-        roles: ['UI Designer', 'Front-end Developer'],
-      },
-      {
-        number: '04',
-        projectName: 'Tesla app',
-        projectDesc: 'iOS app concept to control Tesla cars remotely.',
-        projectType: 'iOS APP CONCEPT',
-        roles: ['UI Designer'],
-      },
-      {
-        number: '05',
-        projectName: 'WhatsMyFood',
-        projectDesc: 'iOS app to remember your fav food at each restaurant you eat.',
-        projectType: 'iOS APP',
-        roles: ['UI Designer', 'Front-end Developer'],
-      },
-      {
-        number: '06',
-        projectName: 'Voistrap',
-        projectDesc: 'Web app project to give workplace insights using indoor localization, voice and schedule.',
-        projectType: 'iOS APP',
-        roles: ['UI Designer', 'Full Stack Developer'],
-      },
       {
         number: '',
         projectName: '',

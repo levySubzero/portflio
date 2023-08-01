@@ -29,13 +29,13 @@ class App extends Component {
       <React.Fragment>
         <MediaQuery query="(min-device-width: 1224px)">
           <WideScreenHero />
-          <WideScreenWork />
+          {/* <WideScreenWork /> */}
           <WideScreenSkills />
           <WideScreenContact />
         </MediaQuery>
         <MediaQuery query="(max-device-width: 1224px)">
           <MobileHero />
-          <MobileWork />
+          {/* <MobileWork /> */}
           <MobileSkills />
           <MobileContact />
         </MediaQuery>
